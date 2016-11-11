@@ -1,0 +1,19 @@
+{
+  "name": "matthiasnoback/php-coding-dojo",
+  "license": "MIT",
+  "type": "project",
+  "description": "Empty project which can be used in a PHP and PHPUnit-oriented coding dojo",
+  "autoload": {
+    "psr-4": {
+      "TrafficSimulator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TrafficSimulator\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^5.6"
+  }
+}
